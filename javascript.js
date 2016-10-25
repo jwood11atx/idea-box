@@ -24,6 +24,7 @@ $(".submit-btn").on("click", function(){
   var idea = $(".idea-input").val();
   var ideabox = new IdeaBox(title, idea);
   ideabox.createIdeaBox();
+  
 })
 
 $(".idea-container").on("click", ".up-vote, .down-vote", function(){
